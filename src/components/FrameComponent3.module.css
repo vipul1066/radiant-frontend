@@ -1,0 +1,341 @@
+.rectangle {
+  align-self: stretch;
+  width: 1614px;
+  position: relative;
+  background-color: var(--color-gray-200);
+  display: none;
+  max-width: 100%;
+}
+.rectangle1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.rectangle2 {
+  z-index: 2;
+}
+.rectangle2,
+.rectangle3,
+.rectangleGroup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangleGroup {
+  margin: 0 !important;
+}
+.rectangle3 {
+  z-index: 3;
+}
+.rectangle4 {
+  z-index: 4;
+}
+.rectangle4,
+.rectangle5,
+.rectangleContainer {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle5 {
+  z-index: 5;
+}
+.rectangleContainer {
+  margin: 0 !important;
+}
+.image {
+  height: 34px;
+  flex: 1;
+  position: relative;
+  z-index: 6;
+}
+.frameGroup {
+  width: 139px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.webBuilderTextNode {
+  height: 100%;
+  width: calc(100% - 22px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 22px;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+}
+.rectangle6 {
+  height: 37px;
+  width: 258px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  display: none;
+}
+.imageIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 6;
+}
+.computerModernRectangle,
+.webBuilderTextNodeParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+.computerModernRectangle {
+  width: 258px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro-100);
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-5xs);
+  z-index: 5;
+}
+.webBuilderTextNodeParent {
+  width: 312px;
+  flex-shrink: 0;
+  justify-content: center;
+  padding: 0 var(--padding-3xl) 0 0;
+  position: relative;
+}
+.contactFrame,
+.frameCallToAction,
+.frameImageLink {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.contactFrame {
+  right: 0;
+  z-index: 8;
+}
+.frameCallToAction,
+.frameImageLink {
+  z-index: 9;
+}
+.frameCallToAction {
+  top: -0.5px;
+  right: 3px;
+  bottom: 1.5px;
+  z-index: 10;
+}
+.frameCallToAction1 {
+  height: 17px;
+  flex: 1;
+  position: relative;
+  z-index: 11;
+}
+.categories {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+  z-index: 12;
+  margin-left: -73px;
+}
+.rectangleLinkFrame {
+  width: 76px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-10xs) var(--padding-12xs) 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.rectangle7,
+.signUpButtonFrame {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.rectangle7 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.signUpButtonFrame {
+  height: 17px;
+  top: 1px;
+  z-index: 11;
+}
+.websiteBuilders {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  z-index: 12;
+}
+.dataCenterRoboticAutomation,
+.signUpTextNode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.signUpTextNode {
+  flex: 1;
+}
+.dataCenterRoboticAutomation {
+  width: 142px;
+  padding: var(--padding-10xs) 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.rectangle8,
+.rectangle9 {
+  width: 91px;
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+}
+.rectangle8 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.rectangle9 {
+  height: 17px;
+  top: 1px;
+  z-index: 11;
+}
+.todaysDeals {
+  position: relative;
+  line-height: 20px;
+  z-index: 12;
+}
+.dataCenterRoboticAutomation1,
+.frameDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.dataCenterRoboticAutomation1 {
+  padding: var(--padding-10xs) 0 var(--padding-12xs);
+}
+.categoriesFrame,
+.downloadButtonFrame {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  max-width: 100%;
+}
+.categoriesFrame {
+  width: 415px;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.downloadButtonFrame {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 302px;
+}
+.image1,
+.imageDownload,
+.imageDownload1,
+.imageDownload2,
+.imageDownload3,
+.textDealView {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.image1 {
+  border-radius: var(--br-9980xl);
+  z-index: 7;
+}
+.frameWixSupport {
+  height: 26px;
+  width: 26px;
+  position: relative;
+}
+.downloadButtonFrameParent {
+  width: 491px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: calc(100% - 533px);
+}
+.frameParent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameParent {
+  overflow-x: auto;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 var(--padding-smi);
+  position: relative;
+  gap: 0 41px;
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-200);
+  justify-content: center;
+  padding: 0 var(--padding-23xl) 0 var(--padding-xl);
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-lightgray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 0 41px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .categoriesFrame {
+    flex-wrap: wrap;
+  }
+}

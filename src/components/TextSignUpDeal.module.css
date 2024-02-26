@@ -1,0 +1,356 @@
+.rectangle {
+  align-self: stretch;
+  height: 155px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  border-top: 1px solid var(--color-gray-100);
+  border-right: 1592px solid var(--color-gray-100);
+  border-bottom: 1px solid var(--color-gray-100);
+  border-left: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.imageUnitedStates {
+  height: 60px;
+  width: 790px;
+  position: relative;
+  max-width: 100%;
+  z-index: 16;
+}
+.bestWebsiteBuilders {
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 17;
+  margin: 0 0 0-790px;
+}
+.frameDataCenter,
+.rectangleSignUpForm {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameDataCenter {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleSignUpForm {
+  width: 1006px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.textTermsOfService {
+  align-self: stretch;
+  height: 1.3px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 16;
+}
+.imageFrame,
+.rectangle1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.3px;
+  bottom: 0.3px;
+  left: 0;
+  z-index: 18;
+}
+.rectangle1 {
+  right: 0;
+  z-index: 19;
+}
+.imageIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 20;
+}
+.frame,
+.webBuilderLabel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.3px;
+  right: 0;
+  bottom: 0.3px;
+  left: 0;
+  z-index: 20;
+}
+.webBuilderLabel {
+  top: 0;
+  bottom: 0;
+  z-index: 21;
+}
+.lastUpdated {
+  position: relative;
+  line-height: 20px;
+  z-index: 22;
+}
+.privacyPolicyLink {
+  height: 17px;
+  width: 6px;
+  position: absolute;
+  margin: 0 !important;
+  right: -2px;
+  bottom: 1px;
+  z-index: 22;
+}
+.rectangleFrame {
+  position: relative;
+  line-height: 20px;
+  white-space: nowrap;
+  z-index: 23;
+}
+.categoriesFrame,
+.contactFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.categoriesFrame {
+  padding: 0 var(--padding-10xs) 0 0;
+  gap: 0 2px;
+}
+.textFrame {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.3px;
+  right: 0;
+  bottom: 0.3px;
+  left: 0;
+  z-index: 21;
+}
+.february222020 {
+  position: relative;
+  line-height: 20px;
+  z-index: 22;
+}
+.rectangle2,
+.signupButton,
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.rectangle2 {
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-smi);
+}
+.signupButton,
+.textContainer {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.textContainer {
+  min-width: 169px;
+}
+.categoriesCategories {
+  top: 0;
+  z-index: 19;
+}
+.categoriesCategories,
+.categoriesCategories1,
+.rectangleRectangle {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.categoriesCategories1 {
+  top: 0;
+  z-index: 20;
+}
+.rectangleRectangle {
+  margin: 0 !important;
+  top: -0.3px;
+  bottom: 0.3px;
+}
+.imageIcon1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+  z-index: 21;
+}
+.contactForm {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.3px;
+  bottom: 0.3px;
+  left: 0;
+  z-index: 21;
+}
+.advertisingDisclosure {
+  position: relative;
+  line-height: 20px;
+  z-index: 22;
+}
+.frameChildren,
+.frameFrame,
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.frameChildren,
+.frameFrame {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.frameChildren {
+  width: 451px;
+  gap: 0 12px;
+  max-width: 100%;
+}
+.textFrame1 {
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-base) 0 0 0;
+  z-index: 18;
+}
+.frameGroup,
+.textFrame1,
+.textFrame2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.textFrame2 {
+  top: 0;
+  bottom: 0;
+  z-index: 19;
+}
+.frameGroup {
+  margin: 0 !important;
+  top: -0.3px;
+  bottom: 0.3px;
+}
+.imageIcon2,
+.topRelevant {
+  position: relative;
+  z-index: 20;
+}
+.topRelevant {
+  line-height: 20px;
+}
+.imageIcon2 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageFrame1,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.imageFrame1 {
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-12xs) var(--padding-4xl);
+  position: relative;
+  text-align: center;
+  color: var(--color-slategray-100);
+}
+.rectangleParent {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.textTermsOfService1 {
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 22px);
+  right: 0;
+  left: 0;
+  z-index: 17;
+}
+.textTermsOfService2 {
+  align-self: stretch;
+  height: 1.3px;
+  position: relative;
+  background-color: var(--color-gainsboro-100);
+  z-index: 15;
+}
+.rectanglePrivacyPolicy,
+.textSignUpDeal {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectanglePrivacyPolicy {
+  position: relative;
+  gap: 9px 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.textSignUpDeal {
+  background-color: var(--color-gray-100);
+  border-top: 1px solid var(--color-gray-100);
+  border-right: 1592px solid var(--color-gray-100);
+  border-bottom: 1px solid var(--color-gray-100);
+  border-left: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  padding: var(--padding-19xl) 0 0;
+  gap: 11px 0;
+  z-index: 13;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+  .bestWebsiteBuilders {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bestWebsiteBuilders {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .frameChildren {
+    flex-wrap: wrap;
+  }
+}
